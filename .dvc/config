@@ -1,0 +1,6 @@
+[core]
+    remote = mygcsremote
+['remote "myremote"']
+    url = s3://mybucket/myproject
+['remote "mygcsremote"']
+    url = gs://dataset0111/data

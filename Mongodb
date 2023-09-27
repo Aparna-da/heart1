@@ -1,0 +1,17 @@
+import pandas as pd
+from pymongo import MongoClient
+
+# Read CSV
+df = pd.read_csv('heart_disease.csv')
+
+# Connect to MongoDB
+client = MongoClient('localhost', 27017)  # Assuming MongoDB is running on localhost and default port
+db = client['Heart_Disease_db']  # Create or access the 'heart_disease_db' database
+collection = db['Heart']  # Create or access the 'data' collection
+
+# Store data in MongoDB
+records = df.to_dict('records')  # Convert dataframe to dictionary format suitable for MongoDB
+collection.insert_many(records)
+
+print("Data inserted into MongoDB!")
+

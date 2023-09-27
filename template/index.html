@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Heart Disease Classification</title>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+        <style>
+            /* Additional styles to enhance the form */
+            body {
+                font-family: 'Arimo', sans-serif;
+            }
+            form {
+                max-width: 500px;
+                margin: 30px auto;
+                padding: 20px;
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+                border-radius: 5px;
+            }
+            label, input, select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+            }
+            button {
+                width: 100%;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 12px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body background="https://cdn3.vectorstock.com/i/1000x1000/77/17/abstract-medical-background-with-flat-web-icons-vector-2537717.jpg">
+
+        <h1 align="center">HEART DISEASE ANALYSIS</h1>
+        
+        <h2 style="color:blue;" align="center"> Heart Disease Data Dictionary</h2>
+       
+        <!-- Form starts here -->
+        <form action="{{url_for('predict')}}" method="post">
+            <label for="Age">AGE:</label>
+            <input type="number" name="Age" required><br>
+
+            <label for="Sex">GENDER:</label>
+            <select name="Sex" required>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+            </select><br>
+
+            <label for="cp">CHEST PAIN TYPE:</label>
+            <select name="cp" required>
+                <option value="0">Typical angina</option>
+                <option value="1">Atypical angina</option>
+                <option value="2">Non-anginal pain</option>
+                <option value="3">Asymptomatic</option>
+            </select><br>
+
+            <label for="trestbps">RESTING BLOOD PRESSURE:</label>
+            <input type="text" name="trestbps" placeholder="trestbps" required>
+            
+            <label for="chol">CHOLESTROL:</label>
+            <input type="text" name="chol" placeholder="chol" required>
+            
+            <label for="fbs">FASTING BLOOD SUGAR:</label>
+            <input type="text" name="fbs" placeholder="fbs" required="required">
+            
+            <label for="restecg">ECG RESULTS:</label>
+            <input type="text" name="restecg" placeholder="restecg" required="required">
+            
+            <label for="thalach">MAX HEART RATE ACHIEVED:</label>
+            <input type="text" name="thalach" placeholder="thalach" required="required">
+            
+            <label for="exang">EXERCISE INDUCED ANGINA:</label>
+            <input type="text" name="exang" placeholder="exang" required="required">
+            
+            <label for="oldpeak">OLDPEAK:</label>
+            <input type="text" name="oldpeak" placeholder="oldpeak" required="required">
+            
+            <label for="slope">SLOPE:</label>
+            <input type="text" name="slope" placeholder="slope" required="required">
+            
+            <label for="ca">VESSELS:</label>
+            <input type="text" name="ca" placeholder="ca" required="required">
+            
+            <label for="thal">THALIUM:</label>
+            <input type="text" name="thal" placeholder="thal" required="required">
+            
+            <button type="submit">Predict</button>
+        </form>
+        <br>
+        <br>
+       
+<script>
+    // This script checks if there is a prediction text and then shows it in an alert dialog.
+    window.onload = function() {
+        var predictionText = "{{ prediction_text }}";
+        if(predictionText) {
+            alert(predictionText);
+        }
+    }
+</script>
+<strong>{{ prediction_text }}</strong>
+    </body>
+</html>
+

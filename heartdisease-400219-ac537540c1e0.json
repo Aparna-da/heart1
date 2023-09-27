@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "heartdisease-400219",
+  "private_key_id": "ac537540c1e0eb28e4c3329e777184f8719e970d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFiLAHOWeaPcfu\n1SvqnjRs9DtQK76Jq+wr7bhMOpTIf2bG6R6AtiRKEmgjUtRvCYjLROi4BK04489q\n3KCZ9gbP5Qw1GM0Or+mdW9gc3VJnZJsx4nXJuoleWE+m4OSY2/GNOVner2wHxJLg\nWpMLB0XiiFeHg9XYQ35knf6x/BIHGwkPE8HEGwJOkmK0bilN3LjTP+23/pjUfx5F\nCl5TYf7jn07RSsu9pB7Ko0KbDNDne/b9iXtFg0MB8DLmK0+ZLlch+xFrUe4lzZ7l\ngYcMc8VdE6sfmlcL/ycz/PshJV+3NaZ22CotBUHtXsLnGqTY8Ni4dxCSJau0kjIK\nQKEYG59LAgMBAAECggEAJoLMlsv5R9ftp8GFq1smq2s+ORYeMqcDB1l0SeBN63zz\nI6qFWOCp2IsYJHLcmb1JHyATIvU+dE3tvU7APOP7VgK4y41HRSrEp/ok+xOnIiM6\nIpKdFjQ43dznwogr6SVQRZE91S1sKWOIoxblfgvv8wdT0UbBpUUbWjB3XGnhdeLW\nvvwhnoS7OqVzdTono6dGVdAtz1hHMOy65lOqP2lZc2ioFEsCdoO0Tf3r0Ui89O7F\nK6kh/zFnbJye6VlNaUrLDcIYGMmfZ/dryhH4gpDV4w5qR6gexVM8kOqMpgfLMquU\nHwSsxmT+8ZzTTVYfCXFOXIIYa0tWc6+822ko9LNwiQKBgQDmPIb31K4TzUr9Sxtf\nfCaQk+iSTHGRWM7t7Qqbsa/OuxjAFrzyGcu7hqMf4wb1nMCX92iGARkBTYax+6Ki\nnkwvafxzn/uJ8lAE+GGzu3Tf4nlGwBpg4MWUm6nfeXCXHwaBluIHtKJLHZZWCRgz\n8gOWOTvAjlaA3GuNzm48tIImbQKBgQDbo1j7z9d8+TNl6zRbOWtsU/fQHoz/mt2n\nb8U+X1hKEde7z4zQLCq4JOuP/beNE/V+WgNujwVnMRhjKc2k+UbE3r3DQ5RCOnJT\nbgVOYwVrSBD1WiRoleV71MA7mdUY2XImC4YY86cUaaTc8gRbZGKnlRTx8COGJd3m\nY7u0PD2plwKBgQCrcfMHZaZjNIJc76rohaiqDJopJyeClmExJ0y49631AbnCgKwe\nlDrz36RlQEeUai+4ehGph/O41qQwsTNAaSROQlwtNbq31Grl6JfIoRS9CwZIOxDp\nhzdaHDh5IxNGVWIg6dxS5J3d1aB3XLpbJCKroN7v2o5r0rd8l3XbWod4WQKBgEXx\nYLbf2xl7Kjj8i7G5OVJH8xSdhf0nzgox97gDGNSNlgvC7m6kgf4eE73I6BjPEFBq\nTcl5Vhkkc0Ww3EH69+RdokR6Us48Wofi82Gg+urNCkl3qTx875VdjNHuDQRaypT+\n+ncbsEs50Txi/aw07Y28Ve0tscJYcK+bdvzQajqFAoGAYCdP5ZJejK2E+J/3l/lb\nIgw3Y6cRHJG4huW3gZ57lpC5/CalLO/DOcns9MW9lTAzD/kV69iaSvas3gjCz7rX\nv1RKQF6vsnMwK6sNw7pz62H8z3VBVMmO6iyJIDYn5XhdBF4hLWY3rXJvKAcQzksZ\n6QQ6I9/X9Mwo7rwedPedDVc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dataret@heartdisease-400219.iam.gserviceaccount.com",
+  "client_id": "112334754216684191552",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dataret%40heartdisease-400219.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
